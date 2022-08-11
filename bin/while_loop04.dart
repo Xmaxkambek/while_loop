@@ -6,13 +6,14 @@ int func(int a){
   int b = 0;
   int c = 0;
   while (b <= a){
+
     if ( b % 2 ==0){
-      b += c;
+      c += b;
     }
       b += 1;
   }
   return b;
 }
 void main() {
-  print(func(8));
+  print(func(20));
 }
