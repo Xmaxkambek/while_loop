@@ -12,7 +12,7 @@ int func(int a){
     }
       b += 1;
   }
-  return b;
+  return c;
 }
 void main() {
   print(func(20));
