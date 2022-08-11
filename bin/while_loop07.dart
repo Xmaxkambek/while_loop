@@ -13,7 +13,11 @@ if (b % 2 == 1){
   s += b;
 }else if (c % 2 == 0 ){
   d += c;
-    }   
+    }else{
+      return d;
+
+    }  
+
      b += 1;
      c += 1;
      s <= d;
