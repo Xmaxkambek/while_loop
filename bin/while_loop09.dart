@@ -12,7 +12,7 @@ while(s<=10){
   if(s % 2 == 0){
     d += s.toString();
   }
-  s += 1;
+  s +=  1;
 }
 return d;
  }
